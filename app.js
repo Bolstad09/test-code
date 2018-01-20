@@ -30,11 +30,8 @@ function multiply(a, b) {
   var sum= a * b;
   var array = [sum, 'The product of ' + a + ' and ' + b + ' is ' + sum + '.'];
   return array;
-
 }
   //eslint-disable-line
-
-
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(5,9);
 
