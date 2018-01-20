@@ -52,9 +52,6 @@ function sumAndMultiply(a, b, c) {
   var sumOfValue = sum(sum(a, b)[0], c)[0];
   var productOfValue = multiply(multiply(a, b)[0], c)[0];
   var array = [sumOfValue, productOfValue, a + ' and ' + b + ' and ' + c + ' sum to ' + sumOfValue + '.', 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + productOfValue + '.'];
-  console.log(sumOfValue);
-  console.log(productOfValue);
-  console.log(array);
   return array;
 }
 
